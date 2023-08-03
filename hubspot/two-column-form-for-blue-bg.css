@@ -1,0 +1,168 @@
+/* Two-Column Form for Blue Background */
+ 
+input {
+    width: 100% !important;
+    height: 53px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    width: calc(100% - 43px) !important;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Figtree', sans-serif;
+    border-radius: 8px;
+    color: #fff;
+    padding: 0px 19px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+input::placeholder {
+  color: #fff !important;
+}
+
+select {
+    height: 53px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    width: 100% !important;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Figtree', sans-serif;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 19px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+select:focus {
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+select: hover {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+}
+
+textarea {
+    border: 2px solid #fff;
+    background-color: transparent;
+    width: 100%;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Figtree', sans-serif;
+    border-radius: 8px;
+    color: #fff;
+    padding: 14px 19px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+}
+
+textarea:focus {
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+textarea:hover {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+input:hover {
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transition: 0.3s;
+}
+
+.hs-error-msgs {
+    display: none !important;
+}
+
+.hs-richtext {
+	color: #fff;
+}
+
+input[type="submit" i] {
+    width: 99.5% !important;
+    height: 53px;
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Figtree', sans-serif;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #000 !important;
+    background-color: #fff;
+    border: none !important;
+    cursor: pointer;
+}
+
+label {
+    font-size: 18px;
+    line-height: 18px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+input[type="submit" i]:hover {
+    transform: translate(0px, -4px);
+    border: none !important;
+}
+
+.w-richtext ul {
+    list-style: none !important;
+    padding-left: 0px !important;
+    margin-top: 10px !important;
+}
+
+.hs-form-booleancheckbox-display {
+    display: flex;
+}
+
+.legal-consent-container .hs-form-booleancheckbox-display input {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    bottom: -5px;
+}
+
+.legal-consent-container .hs-form-booleancheckbox-display>span {
+    margin-left: 15px;
+}
+
+.hs-form-booleancheckbox-display a {
+    color: #fff !important;
+    transition: 0.3s !important;
+}
+
+.hs-form-booleancheckbox-display a:hover {
+    transition: 0.3s !important;
+    opacity: 0.7 !important;
+}
+
+.hs-richtext a {
+    color: #fff !important;
+    transition: 0.3s !important;
+}
+
+.hs-richtext a:hover {
+    opacity: 0.7 !important;
+    transition: 0.3s !important;
+}
+
+/* CSS Two Columns */
+
+fieldset {
+    max-width: 100% !important;
+}
+
+@media only screen and (min-width: 50px) and (max-width: 700px) { 
+fieldset.form-columns-2 .hs-form-field {
+    width: 100% !important;
+}
+}
