@@ -79,10 +79,6 @@ textarea:hover {
     transition: 0.3s;
 }
 
-.hs-error-msgs {
-    display: none !important;
-}
-
 input[type="submit" i] {
     width: 99.5% !important;
     height: 53px;
