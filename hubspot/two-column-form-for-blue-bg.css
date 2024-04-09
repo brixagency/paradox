@@ -80,10 +80,6 @@ input:hover {
     transition: 0.3s;
 }
 
-.hs-error-msgs {
-    display: none !important;
-}
-
 .hs-richtext {
 	color: #fff;
 }
