@@ -165,3 +165,20 @@ fieldset {
 fieldset.form-columns-2 .hs-form-field {
     width: 100% !important;
 }
+
+.input[type="checkbox"], input[type="radio"] {
+ 	width: 16px;
+	height: 16px;
+	margin-right: 8px;
+	margin-top: -2px;
+}
+
+.hs-form-radio-display {
+	display: flex;
+	align-items: center
+}
+
+.hs-fieldtype-radio {
+	font-size: 14px;
+	line-height: 140%;
+}
