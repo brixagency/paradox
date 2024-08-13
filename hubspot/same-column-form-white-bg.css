@@ -76,7 +76,10 @@ font-family: Figtree,sans-serif;
 }
 
 .hs_email { order: 1; }
-.legal-consent-container { order: 3; }
+.legal-consent-container { 
+	order: 3; 
+	margin-top: 12px;
+}
 .hs_submit { order: 2 }
 
 @media only screen and (min-width: 200px) and (max-width: 990px) {
