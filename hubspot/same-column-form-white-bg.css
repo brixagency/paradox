@@ -1,0 +1,98 @@
+.hs-input {
+    height: 48px;
+    max-width: 360px !important;
+    width: 360px !important;
+    margin-right: 10px;
+    padding: 9px 12px 6px;
+    border: 1.5px solid rgba(137, 138, 142, 0.5);
+    border-radius: 7.6px;
+    background-color: hsla(0,0%,100%,0);
+    font-family: Figtree,sans-serif;
+    color: #12141d;
+    line-height: 16px;
+    font-weight: 800;
+    margin-right: 15px;
+    transition: 0.3s;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.hs-button  {
+    font-size: 16px;
+    height: 48px;
+    width: 120px !important;
+    padding: 13px 26px;
+    border-radius: 7.6px;
+    background-color: #25C9D0;
+    font-family: Figtree,sans-serif;
+    line-height: 16px;
+    font-weight: 800;
+    color: #fff;
+    border: 0px !important;
+    transition: 0.3s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+.hs-button:hover {
+transform: translate(0px, -4px);
+transition: 0.3s;
+background: #3CC1CA;
+}
+
+.hs-form {
+     display: flex;
+    align-items: center;
+    width: 520px !important;
+    justify-content: center;
+    margin:auto;
+    flex-wrap: wrap;
+}
+
+label {
+display: none;
+}
+
+.hs-error-msgs {
+display: none !important;
+}
+
+:focus {
+outline: none;
+transition: 0.3s;
+}
+
+.submitted-message {
+font-family: Figtree,sans-serif;
+    color: #12141d;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.hs-input:focus {
+    border: 1.5px solid #25C9D0;
+}
+
+.hs_email { order: 1; }
+.legal-consent-container { order: 3; }
+.hs_submit { order: 2 }
+
+@media only screen and (min-width: 200px) and (max-width: 990px) {
+.hs-form {
+    display: block;
+    width: 100% !important;
+}
+
+.hs-input {
+	margin-bottom: 10px !important;
+  margin-right: 0px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.hs-button {
+width: 100% !important;
+}
+}
