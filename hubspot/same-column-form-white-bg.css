@@ -94,6 +94,7 @@ font-size: 14px;
 line-height: 18px;
 color: #A9A9A9 !important;
 text-decoration: underline;
+font-weight: 400 !important;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 990px) {
