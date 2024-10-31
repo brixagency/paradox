@@ -77,7 +77,7 @@ font-family: Figtree,sans-serif;
 
 .hs_email { order: 1; }
 .legal-consent-container { 
-	max-width: 400px;
+	max-width: 100%;
 	order: 3; 
 	margin-top: 12px;
 }
