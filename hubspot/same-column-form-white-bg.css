@@ -3,7 +3,7 @@
     max-width: 360px !important;
     width: 360px !important;
     margin-right: 10px;
-    padding: 21px 12px;
+    padding: 12px 21px;
     border: 1px solid #F1F1F1;
     border-radius: 100px;
     background-color: hsla(0,0%,100%,0);
@@ -95,22 +95,4 @@ line-height: 18px;
 color: #A9A9A9 !important;
 text-decoration: underline;
 font-weight: 400 !important;
-}
-
-@media only screen and (min-width: 200px) and (max-width: 990px) {
-.hs-form {
-    display: block;
-    width: 100% !important;
-}
-
-.hs-input {
-	margin-bottom: 10px !important;
-  margin-right: 0px !important;
-  width: 100% !important;
-  max-width: 100% !important;
-}
-
-.hs-button {
-width: 100% !important;
-}
 }
