@@ -83,6 +83,10 @@ font-family: Figtree,sans-serif;
 }
 .hs_submit { order: 2 }
 
+.hs-richtext {
+text-align: center;
+}
+
 .hs-richtext p {
 font-size: 12px;
 line-height: 18px;
@@ -95,4 +99,16 @@ line-height: 18px;
 color: #A9A9A9 !important;
 text-decoration: underline;
 font-weight: 400 !important;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 568px) {
+.hs-form {
+    display: block;
+    width: 350px !important;
+}
+
+.hs-input {
+  max-width: 214px !important;
+  margin-right: 10px !important;
+}
 }
