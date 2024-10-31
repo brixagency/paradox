@@ -4,13 +4,13 @@
     width: 360px !important;
     margin-right: 10px;
     padding: 9px 12px 6px;
-    border: 1.5px solid rgba(137, 138, 142, 0.5);
-    border-radius: 7.6px;
+    border: 1px solid #F1F1F1;
+    border-radius: 100px;
     background-color: hsla(0,0%,100%,0);
     font-family: Figtree,sans-serif;
     color: #12141d;
     line-height: 16px;
-    font-weight: 800;
+    font-weight: 300;
     margin-right: 15px;
     transition: 0.3s;
     font-size: 16px;
@@ -23,7 +23,7 @@
     height: 48px;
     width: 120px !important;
     padding: 13px 26px;
-    border-radius: 7.6px;
+    border-radius: 100px;
     background-color: #25C9D0;
     font-family: Figtree,sans-serif;
     line-height: 16px;
@@ -45,7 +45,7 @@ background: #3CC1CA;
 .hs-form {
      display: flex;
     align-items: center;
-    width: 520px !important;
+    width: 590px !important;
     justify-content: center;
     margin:auto;
     flex-wrap: wrap;
@@ -84,13 +84,13 @@ font-family: Figtree,sans-serif;
 .hs_submit { order: 2 }
 
 .hs-richtext p {
-font-size: 14px;
+font-size: 12px;
 line-height: 18px;
 color: #A9A9A9 !important;
 }
 
 .hs-richtext a {
-font-size: 14px;
+font-size: 12px;
 line-height: 18px;
 color: #A9A9A9 !important;
 text-decoration: underline;
