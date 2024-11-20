@@ -55,10 +55,6 @@ background: #3CC1CA;
 display: none;
 }
 
-.hs-error-msgs {
-display: none !important;
-}
-
 :focus {
 outline: none;
 transition: 0.3s;
