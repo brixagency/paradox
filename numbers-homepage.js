@@ -1,5 +1,4 @@
-<script>
-    function createDigitColumn() {
+function createDigitColumn() {
         const column = document.createElement('div');
         column.className = 'digit-column';
         for (let i = 0; i <= 9; i++) {
@@ -87,4 +86,3 @@
         const element = document.getElementById(id);
         if (element) observer.observe(element);
     });
-</script>
